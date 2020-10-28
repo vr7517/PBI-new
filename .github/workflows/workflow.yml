@@ -12,8 +12,8 @@ on:
 # 2. Change these variables for your configuration:
 env:
   AZURE_WEBAPP_NAME: PBIOMApp # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: 'https://github.com/vr7517/PBI-new'         # set this to the path to your web app project, defaults to the repository root
-  PYTHON_VERSION: '3.6'                  # set this to the python version to use
+  AZURE_WEBAPP_PACKAGE_PATH: 'ftp://waws-prod-dm1-129.ftp.azurewebsites.windows.net/site/wwwroot'         # set this to the path to your web app project, defaults to the repository root
+  PYTHON_VERSION: '3.7'                  # set this to the python version to use
 
 jobs:
   build:
